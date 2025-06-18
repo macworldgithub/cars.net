@@ -1,15 +1,14 @@
 'use client';
-
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useEffect, useState } from 'react';
 
 const navItems = [
-  { label: 'HOME', href: '/' },
+  { label: 'HOME', href: '/Home' },
   { label: 'BUY', href: '/buy' },
-  { label: 'SELL', href: '/sell' },
-  { label: 'VALUATIONS', href: '/valuations' },
-  { label: 'BI INSIGHTS', href: '/insights' },
+  { label: 'SELL', href: '/Sell_to_Wholesale' },
+  { label: 'VALUATIONS', href: '/Valuations' },
+  { label: 'BI INSIGHTS', href: '/BusinessIntelligence' },
 ];
 
 const Navbar = () => {
@@ -49,7 +48,7 @@ const Navbar = () => {
 
         {/* Login Button */}
         <Link
-          href="/login"
+          href="/Login"
           className="bg-[#00008B] hover:bg-[#00008B] text-white font-semibold py-2 px-4 rounded text-sm md:text-base"
         >
           LOGIN

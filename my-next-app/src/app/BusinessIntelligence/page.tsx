@@ -9,9 +9,11 @@ const BusinessIntelligence = () => {
       <HeroBanner/>
       <PricingSection/>
       <Quotes/>
+      <div className="w-full bg-white">
       <FaqSection/>
+      </div>
     </div>
   )
 }
 
-export default BusinessIntelligence
+export default BusinessIntelligence;

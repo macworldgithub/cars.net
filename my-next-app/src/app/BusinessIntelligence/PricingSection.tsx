@@ -7,23 +7,24 @@ const pricingPlans = [
     price: '$200/month',
     features: ['Core data', '1–2 users'],
     highlighted: true,
-    height: 'h-[260px]',
+    height: 'h-[200px]', 
   },
   {
     title: 'Pro',
     price: '$500/month',
     features: ['Consumer insights', '5 users', 'custom reports'],
     highlighted: true,
-    height: 'h-[320px]',
+    height: 'h-[240px]', 
   },
   {
     title: 'Enterprise',
     price: '$1,500+/month',
     features: ['API access', 'unlimited users', 'dedicated support'],
     highlighted: true,
-    height: 'h-[380px]',
+    height: 'h-[280px]', 
   },
 ];
+
 
 const features = [
   {
